@@ -63,7 +63,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "ffff7ff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -73,7 +73,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "pilkbadge.kicad_prl",
+    "filename": "pilkbrain.kicad_prl",
     "version": 3
   },
   "project": {

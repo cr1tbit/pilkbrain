@@ -24,7 +24,7 @@ fp-info-cache
 *.dsn
 *.ses
 
-
+*.step
 *.STEP
 *.log
 *.db
