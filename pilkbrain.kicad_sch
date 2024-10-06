@@ -3868,6 +3868,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:SPX3819M5-L-3-3"
 			(pin_names
 				(offset 0.254)
@@ -6486,7 +6568,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 199.39) (xy 22.86 199.39)
+			(xy 204.47 214.63) (xy 210.82 214.63)
 		)
 		(stroke
 			(width 0)
@@ -6586,7 +6668,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 207.01) (xy 22.86 207.01)
+			(xy 204.47 209.55) (xy 210.82 209.55)
 		)
 		(stroke
 			(width 0)
@@ -6806,6 +6888,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 222.25) (xy 210.82 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc1a651-168f-485f-8a45-fc5df90ad00d")
+	)
+	(wire
+		(pts
 			(xy 161.29 45.72) (xy 237.49 45.72)
 		)
 		(stroke
@@ -6906,7 +6998,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 204.47) (xy 22.86 204.47)
+			(xy 204.47 212.09) (xy 210.82 212.09)
 		)
 		(stroke
 			(width 0)
@@ -7536,6 +7628,26 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 219.71) (xy 210.82 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2ecb80-483a-4165-9037-a3c8fca6215a")
+	)
+	(wire
+		(pts
+			(xy 204.47 207.01) (xy 210.82 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c51d41c-1220-45ca-a68d-a1f149ee4f44")
+	)
+	(wire
+		(pts
 			(xy 173.99 205.74) (xy 170.18 205.74)
 		)
 		(stroke
@@ -8153,6 +8265,16 @@
 			(type default)
 		)
 		(uuid "c3b2b9ce-c7c1-4048-a34a-0d6e3dbc5c52")
+	)
+	(wire
+		(pts
+			(xy 204.47 217.17) (xy 210.82 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4272341-0b8a-48dc-a7b9-2b98710cc479")
 	)
 	(wire
 		(pts
@@ -8845,8 +8967,8 @@
 		(uuid "ffe24b64-63d6-46f5-a983-a69fae86c347")
 	)
 	(rectangle
-		(start 12.7 189.23)
-		(end 40.64 220.98)
+		(start 220.98 198.12)
+		(end 193.04 229.87)
 		(stroke
 			(width 0)
 			(type dash)
@@ -9026,6 +9148,28 @@
 		)
 		(uuid "054770f3-f227-4386-8392-875d35d34480")
 	)
+	(label "EXTIO_2"
+		(at 204.47 209.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1770f468-3aa4-4c1f-8190-45f6c2fef49b")
+	)
+	(label "EXTIO_5"
+		(at 204.47 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1adb418d-7a2a-4ee4-963b-522815efad55")
+	)
 	(label "TARG_RX"
 		(at -49.53 237.49 0)
 		(fields_autoplaced yes)
@@ -9047,6 +9191,17 @@
 			(justify left bottom)
 		)
 		(uuid "20282edc-eb3f-4436-84d6-61b316e49a1d")
+	)
+	(label "EXTIO_3"
+		(at 204.47 212.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "225cf131-79ea-408b-a7eb-70512b96888d")
 	)
 	(label "WS2812_VDD"
 		(at 289.56 212.09 0)
@@ -9092,6 +9247,17 @@
 		)
 		(uuid "2d8611fa-2157-4b55-b900-589ff1094ffd")
 	)
+	(label "EXTIO_6"
+		(at 204.47 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f3a15be-2d19-4f93-99aa-7b23624c3fe8")
+	)
 	(label "I2S_DAT"
 		(at 170.18 248.92 0)
 		(fields_autoplaced yes)
@@ -9135,17 +9301,6 @@
 			(justify left bottom)
 		)
 		(uuid "427ff13a-7e5c-40f9-960c-b1356cac51e7")
-	)
-	(label "WS2812_OUT"
-		(at 170.18 238.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "447761b9-c835-46a4-b3f9-ac98712d658a")
 	)
 	(label "SD_DAT2"
 		(at 170.18 274.32 0)
@@ -9212,6 +9367,17 @@
 			(justify left bottom)
 		)
 		(uuid "7220177f-7451-4092-b250-b562f6ff0245")
+	)
+	(label "EXTIO_1"
+		(at 170.18 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b120e26-3615-43d9-bbcb-d960d1cab5d4")
 	)
 	(label "EN_3V3OUT"
 		(at 170.18 254 0)
@@ -9367,6 +9533,17 @@
 		)
 		(uuid "a5e29776-59d1-42a5-b8e3-016efcd7bce6")
 	)
+	(label "EXTIO_5"
+		(at 170.18 223.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7c2c7d6-a9e4-4963-9c23-93c49f24c8d6")
+	)
 	(label "SD_DAT3"
 		(at 200.66 260.35 180)
 		(fields_autoplaced yes)
@@ -9389,6 +9566,17 @@
 		)
 		(uuid "a97f13bd-041e-4355-b062-8bf61eec9f9a")
 	)
+	(label "EXTIO_4"
+		(at 204.47 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aec52962-2292-47e0-a48c-45bc89b7c919")
+	)
 	(label "I2C_SDA"
 		(at 294.64 83.82 180)
 		(fields_autoplaced yes)
@@ -9399,6 +9587,17 @@
 			(justify right bottom)
 		)
 		(uuid "af52d763-10cb-426a-a228-350e27e55839")
+	)
+	(label "EXTIO_3"
+		(at 170.18 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b093e86a-e659-48c8-adf7-696405794298")
 	)
 	(label "ESP_EN"
 		(at 57.15 204.47 180)
@@ -9423,7 +9622,7 @@
 		(uuid "b21baac6-7c62-4b54-a706-df4389fec02a")
 	)
 	(label "I2S_LRCLK"
-		(at 170.18 251.46 0)
+		(at 170.18 246.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9443,6 +9642,17 @@
 			(justify right bottom)
 		)
 		(uuid "b778c2fc-b12f-4a50-b858-07b123089429")
+	)
+	(label "EXTIO_1"
+		(at 204.47 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8fe970a-adc1-4c80-bd99-67f1a8da7515")
 	)
 	(label "SD_DAT0"
 		(at 104.14 271.78 180)
@@ -9477,6 +9687,17 @@
 		)
 		(uuid "bf1cc139-d136-406c-8e81-f4fb5177e003")
 	)
+	(label "EXTIO_2"
+		(at 170.18 231.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c09b539a-18d7-4e08-87b1-e23766f83b73")
+	)
 	(label "SD_DAT3"
 		(at 170.18 259.08 0)
 		(fields_autoplaced yes)
@@ -9487,6 +9708,28 @@
 			(justify left bottom)
 		)
 		(uuid "c20ac32e-342f-4ca2-9d5b-ce84e9e804f5")
+	)
+	(label "BUT2"
+		(at 170.18 238.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5268428-1765-4209-9642-7acebdbdc00b")
+	)
+	(label "EXTIO_6"
+		(at 170.18 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c62cf9fd-efc9-4f8e-8db8-abae67f9e53e")
 	)
 	(label "VBAT_MEAS"
 		(at 281.94 191.77 180)
@@ -9509,6 +9752,17 @@
 			(justify left bottom)
 		)
 		(uuid "d1c3a1a8-7d41-4d4a-add8-5d94eb42c731")
+	)
+	(label "EXTIO_4"
+		(at 170.18 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d398b51e-58dc-4581-a127-477cec84e557")
 	)
 	(label "ESP_EN"
 		(at 52.07 100.33 0)
@@ -9533,7 +9787,7 @@
 		(uuid "d6828e01-d089-4759-a563-157ccd2f9fef")
 	)
 	(label "I2S_CLK"
-		(at 170.18 246.38 0)
+		(at 170.18 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12606,7 +12860,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 22.86 215.9 90)
+		(at 210.82 219.71 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12614,7 +12869,7 @@
 		(dnp no)
 		(uuid "3408c7cc-0eb2-486b-82a9-9e858fe56546")
 		(property "Reference" "PAD25"
-			(at 25.4 214.63 90)
+			(at 208.28 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12623,7 +12878,7 @@
 			)
 		)
 		(property "Value" "BAT-"
-			(at 18.288 215.9 90)
+			(at 215.392 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12632,7 +12887,7 @@
 			)
 		)
 		(property "Footprint" "Critbit_lib:diy_castellate_2.54"
-			(at 22.86 210.82 0)
+			(at 210.82 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12641,7 +12896,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 210.82 0)
+			(at 210.82 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12650,7 +12905,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 22.86 215.9 0)
+			(at 210.82 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12659,7 +12914,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 22.86 215.9 0)
+			(at 210.82 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13191,7 +13446,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 194.31 0)
+		(at 204.47 214.63 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13200,7 +13456,7 @@
 		(fields_autoplaced yes)
 		(uuid "40f0336f-fb61-4243-bdd2-3f7711601f47")
 		(property "Reference" "#PWR04"
-			(at 22.86 200.66 0)
+			(at 198.12 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13209,7 +13465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 198.7534 0)
+			(at 200.0266 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13218,7 +13474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 194.31 0)
+			(at 204.47 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13227,7 +13483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 194.31 0)
+			(at 204.47 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13236,7 +13492,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 194.31 0)
+			(at 204.47 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14103,7 +14359,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 22.86 204.47 90)
+		(at 210.82 212.09 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14111,7 +14368,7 @@
 		(dnp no)
 		(uuid "4d11cd55-afcb-4b23-ac10-f1f1e835811b")
 		(property "Reference" "PAD14"
-			(at 25.4 203.454 90)
+			(at 208.28 211.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14120,7 +14377,7 @@
 			)
 		)
 		(property "Value" "BAT+"
-			(at 18.034 204.47 90)
+			(at 215.646 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14129,7 +14386,7 @@
 			)
 		)
 		(property "Footprint" "Critbit_lib:diy_castellate_2.54"
-			(at 22.86 199.39 0)
+			(at 210.82 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14138,7 +14395,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 199.39 0)
+			(at 210.82 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14147,7 +14404,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 22.86 204.47 0)
+			(at 210.82 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14156,7 +14413,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 22.86 204.47 0)
+			(at 210.82 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15269,7 +15526,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 22.86 199.39 90)
+		(at 210.82 214.63 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15277,7 +15535,7 @@
 		(dnp no)
 		(uuid "63a16da2-352b-4568-b148-66037786363d")
 		(property "Reference" "PAD17"
-			(at 25.4 198.374 90)
+			(at 208.28 213.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15286,7 +15544,7 @@
 			)
 		)
 		(property "Value" "BAT+"
-			(at 18.034 199.39 90)
+			(at 215.646 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15295,7 +15553,7 @@
 			)
 		)
 		(property "Footprint" "Critbit_lib:diy_castellate_2.54"
-			(at 22.86 194.31 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15304,7 +15562,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 194.31 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15313,7 +15571,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 22.86 199.39 0)
+			(at 210.82 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15322,7 +15580,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 22.86 199.39 0)
+			(at 210.82 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16600,7 +16858,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 22.86 207.01 90)
+		(at 210.82 209.55 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16608,7 +16867,7 @@
 		(dnp no)
 		(uuid "8724482a-2810-4afb-8056-60af4052b91e")
 		(property "Reference" "PAD15"
-			(at 25.4 205.994 90)
+			(at 208.28 208.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16617,7 +16876,7 @@
 			)
 		)
 		(property "Value" "BAT+"
-			(at 18.034 207.01 90)
+			(at 215.646 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16626,7 +16885,7 @@
 			)
 		)
 		(property "Footprint" "Critbit_lib:diy_castellate_2.54"
-			(at 22.86 201.93 0)
+			(at 210.82 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16635,7 +16894,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 201.93 0)
+			(at 210.82 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16644,7 +16903,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 22.86 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16653,7 +16912,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 22.86 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16675,7 +16934,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 22.86 213.36 90)
+		(at 210.82 217.17 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16683,7 +16943,7 @@
 		(dnp no)
 		(uuid "8728af1f-13ab-45ea-85e7-d1ae2cbc4e0a")
 		(property "Reference" "PAD24"
-			(at 25.4 212.09 90)
+			(at 208.28 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16692,7 +16952,7 @@
 			)
 		)
 		(property "Value" "BAT-"
-			(at 18.288 213.36 90)
+			(at 215.392 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16701,7 +16961,7 @@
 			)
 		)
 		(property "Footprint" "Critbit_lib:diy_castellate_2.54"
-			(at 22.86 208.28 0)
+			(at 210.82 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16710,7 +16970,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 208.28 0)
+			(at 210.82 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16719,7 +16979,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 22.86 213.36 0)
+			(at 210.82 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16728,7 +16988,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 22.86 213.36 0)
+			(at 210.82 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17395,7 +17655,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 22.86 218.44 90)
+		(at 210.82 222.25 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17403,7 +17664,7 @@
 		(dnp no)
 		(uuid "960056d1-39b0-4461-a27c-e2175e6637a0")
 		(property "Reference" "PAD26"
-			(at 25.4 217.17 90)
+			(at 208.28 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17412,7 +17673,7 @@
 			)
 		)
 		(property "Value" "BAT-"
-			(at 18.288 218.44 90)
+			(at 215.392 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17421,7 +17682,7 @@
 			)
 		)
 		(property "Footprint" "Critbit_lib:diy_castellate_2.54"
-			(at 22.86 213.36 0)
+			(at 210.82 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17430,7 +17691,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 213.36 0)
+			(at 210.82 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17439,7 +17700,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 22.86 218.44 0)
+			(at 210.82 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17448,7 +17709,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 22.86 218.44 0)
+			(at 210.82 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18993,7 +19254,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 22.86 194.31 90)
+		(at 210.82 207.01 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19001,7 +19263,7 @@
 		(dnp no)
 		(uuid "b1531889-8b02-4800-a98c-a8d78dfe6d15")
 		(property "Reference" "PAD18"
-			(at 25.4 193.294 90)
+			(at 208.28 205.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19010,7 +19272,7 @@
 			)
 		)
 		(property "Value" "BAT+"
-			(at 18.034 194.31 90)
+			(at 215.646 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19019,7 +19281,7 @@
 			)
 		)
 		(property "Footprint" "Critbit_lib:diy_castellate_2.54"
-			(at 22.86 189.23 0)
+			(at 210.82 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19028,7 +19290,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 189.23 0)
+			(at 210.82 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19037,7 +19299,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 22.86 194.31 0)
+			(at 210.82 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19046,7 +19308,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 22.86 194.31 0)
+			(at 210.82 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20678,6 +20940,70 @@
 			(project "pilkbadge"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "PAD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 341.63 214.63 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1ef57f3-2df4-417a-814f-9eb480e03924")
+		(property "Reference" "H1"
+			(at 344.17 213.4178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 344.17 215.8421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 341.63 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 341.63 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "H1")
 					(unit 1)
 				)
 			)
