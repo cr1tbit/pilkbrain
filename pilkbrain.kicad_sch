@@ -8753,11 +8753,12 @@
 	)
 	(text "s3 - 2.2\ns3FH8 - 3.0\nc3fh4 - 1.4\nc3 - 1.2\n16M - 0.3-0.5\n\nS3@8 - 3.0\nS3@16 - 2.5\nc3@16 - 1.5"
 		(exclude_from_sim no)
-		(at 307.848 20.32 0)
+		(at 222.504 25.146 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "593e67d0-8479-4491-a387-18f9ff942caa")
 	)
@@ -11207,7 +11208,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C1565"
 			(at 50.8 99.06 0)
 			(effects
 				(font
@@ -11286,7 +11287,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14445"
+		(property "LCSC" "C52923"
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -11955,7 +11956,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -15460,7 +15460,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14445"
+		(property "LCSC" "C52923"
 			(at 147.32 85.09 0)
 			(effects
 				(font
@@ -15606,7 +15606,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C76700"
+		(property "LCSC" "C1547"
 			(at 74.93 129.54 0)
 			(effects
 				(font
@@ -16583,7 +16583,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C1565"
 			(at 59.69 99.06 0)
 			(effects
 				(font
@@ -16729,7 +16729,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14445"
+		(property "LCSC" "C52923"
 			(at 96.52 99.06 0)
 			(effects
 				(font
@@ -17473,7 +17473,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14445"
+		(property "LCSC" "C52923"
 			(at 40.64 113.03 0)
 			(effects
 				(font
@@ -19789,7 +19789,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C76700"
+		(property "LCSC" "C1547"
 			(at 54.61 119.38 0)
 			(effects
 				(font
@@ -20547,7 +20547,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C76700"
+		(property "LCSC" "C1547"
 			(at 74.93 119.38 0)
 			(effects
 				(font
@@ -21792,7 +21792,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14445"
+		(property "LCSC" "C52923"
 			(at 87.63 90.17 0)
 			(effects
 				(font
@@ -22086,7 +22086,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C76700"
+		(property "LCSC" "C1547"
 			(at 54.61 129.54 0)
 			(effects
 				(font
