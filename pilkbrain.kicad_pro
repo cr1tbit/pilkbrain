@@ -58,31 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|111000000|58500000|02fc7895-0d25-48a5-be00-777e2a048828|f776bacb-b9cc-4ed8-93e1-2e4000eb7eb5",
-        "clearance|111000000|58900000|2e6763a8-b827-4015-b0e2-d3500dfb2f0a|02fc7895-0d25-48a5-be00-777e2a048828",
-        "clearance|111200000|58300000|a49badcf-e7ea-4ccf-b246-86eece3b38f5|f776bacb-b9cc-4ed8-93e1-2e4000eb7eb5",
-        "clearance|111200000|58700000|ea546824-b5ca-4ed0-9731-cba59bc964dd|02fc7895-0d25-48a5-be00-777e2a048828",
-        "clearance|111200000|59100000|43b7f1f3-37aa-4c4e-a559-6e04d9d36879|2e6763a8-b827-4015-b0e2-d3500dfb2f0a",
-        "clearance|111400000|58500000|ea546824-b5ca-4ed0-9731-cba59bc964dd|a49badcf-e7ea-4ccf-b246-86eece3b38f5",
-        "clearance|111400000|58900000|43b7f1f3-37aa-4c4e-a559-6e04d9d36879|ea546824-b5ca-4ed0-9731-cba59bc964dd",
-        "clearance|111600000|58300000|ec7bbd32-1dfd-4c6d-9046-5c4a2abf5505|a49badcf-e7ea-4ccf-b246-86eece3b38f5",
-        "clearance|111600000|58700000|bb008746-b44d-4a70-af99-cc3357fcded3|ea546824-b5ca-4ed0-9731-cba59bc964dd",
-        "clearance|111600000|59100000|ce4561a6-7b4d-4951-95a9-db71d501dcb6|43b7f1f3-37aa-4c4e-a559-6e04d9d36879",
-        "clearance|111800000|58500000|bb008746-b44d-4a70-af99-cc3357fcded3|ec7bbd32-1dfd-4c6d-9046-5c4a2abf5505",
-        "clearance|111800000|58900000|ce4561a6-7b4d-4951-95a9-db71d501dcb6|bb008746-b44d-4a70-af99-cc3357fcded3",
-        "courtyards_overlap|100970001|58870001|0aa53fd3-5fc5-42d7-92c0-52e24a875e71|2e2f03ea-ac5d-4862-a7dd-6e7fefff2282",
-        "courtyards_overlap|105229999|58870001|0aa53fd3-5fc5-42d7-92c0-52e24a875e71|7e4a0715-69a6-4704-af84-9e655c422940",
-        "courtyards_overlap|106250001|45600001|51a7e92e-6681-4e3b-ad6e-75d2c444213b|a8abf7d3-3d33-4f85-b237-806c585fad4d",
-        "courtyards_overlap|106250001|48563147|3ac61203-8348-46f3-9dc5-2476cb0ac397|a8abf7d3-3d33-4f85-b237-806c585fad4d",
-        "courtyards_overlap|115469999|47200001|55091563-0408-4708-8abe-590486a6db2e|f037aba2-d61a-471f-b9c5-16798f693d3a",
-        "courtyards_overlap|116569999|47200001|55091563-0408-4708-8abe-590486a6db2e|c32a9fd7-768f-490a-b59b-ac6404fa01ff",
-        "items_not_allowed|105000000|62850000|2f80afd1-0103-4aea-a270-bd722793f498|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|107400000|62850000|5d5a374e-7905-4a45-9ad6-b933341523e2|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|109050000|62850000|84218cc4-1c4b-4eac-89f7-ab74ffd2b5a6|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|111050000|62850000|da0d93cb-2423-4177-84e0-174f792bcb47|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|111250000|62850000|74c0cef8-023d-4880-b4c2-9733226d58c0|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -143,15 +119,15 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.025,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.5,
@@ -484,7 +460,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -495,8 +471,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
+        "via_diameter": 0.4,
+        "via_drill": 0.25,
         "wire_width": 6
       }
     ],
