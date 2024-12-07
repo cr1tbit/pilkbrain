@@ -8879,7 +8879,7 @@
 		(uuid "748a06bc-b39d-4eb4-8375-405bdce5b331")
 	)
 	(label "EXTIO_8"
-		(at 152.4 135.89 0)
+		(at 152.4 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9319,7 +9319,7 @@
 		(uuid "d1c3a1a8-7d41-4d4a-add8-5d94eb42c731")
 	)
 	(label "I2S_CLK"
-		(at 152.4 140.97 0)
+		(at 152.4 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9407,7 +9407,7 @@
 		(uuid "efca6792-d9fd-4a41-a701-d5763255db6e")
 	)
 	(label "EXTIO_9"
-		(at 152.4 138.43 0)
+		(at 152.4 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13414,7 +13414,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C150475"
+		(property "LCSC" "C211419"
 			(at 187.96 72.39 0)
 			(effects
 				(font
