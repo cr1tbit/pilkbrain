@@ -1,0 +1,41 @@
+#pragma once
+
+// const int SD_CLK = 33;
+// const int SD_CMD = 34;
+// const int SD_D0  = 35;
+// const int SD_D1  = 36;
+// const int SD_D2  = 21;
+// const int SD_D3  = 48;
+// const int SD_DET  = 3;
+
+// const int I2C_SDA = 41;
+// const int I2C_SCL = 40;
+
+const int I2C_SDA = 47;
+const int I2C_SCL = 35;
+
+
+// const int BQ_CHG = 39;
+// const int BQ_PGOOD = 38;
+
+// const int WS2812_OUT = 4;
+const int EN_PERIPH = 12;
+// const int VBAT_MEAS = 18;
+// const int EN_3V3OUT = 7;
+
+// const int LED_STAT = 8;
+// const int BUT2 = 42;
+// const int BOOT_BUT1 = 0;
+
+// const int EXTIO_1 = 6;
+// const int EXTIO_2 = 5;
+// const int EXTIO_3 = 14;
+// const int EXTIO_4 = 13;
+// const int EXTIO_5 = 12;
+// const int EXTIO_6 = 2;
+// const int EXTIO_7 = 10;
+// const int EXTIO_8 = 9;
+
+const int I2S_DAT = 9;
+const int I2S_LRCLK = 11;
+const int I2S_CLK = 6;
